@@ -1,4 +1,3 @@
-# -*- encoding : utf-8 -*-
 class MessageGenerator
   attr_reader :language
 
@@ -65,7 +64,7 @@ class MessageGenerator
 
   def card_number_not_found_message
     if language == :spanish
-        "Lo siento, no se encontro el numero de tarjeta. Por favor, intentelo de nuevo."
+        "Lo siento, no se encontró el número de tarjeta. Por favor, inténtelo de nuevo."
     else
       "I'm sorry, that card number was not found. Please try again."
     end
