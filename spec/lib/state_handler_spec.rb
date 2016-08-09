@@ -1,4 +1,3 @@
-# -*- encoding : utf-8 -*-
 require 'spec_helper'
 require File.expand_path('../../../lib/state_handler', __FILE__)
 
@@ -105,7 +104,7 @@ describe StateHandler::AK do
       context 'with a failed (nil) transcription' do
         it 'sends EBT-not-found message' do
           reply_for_user = subject.transcribe_balance_response(failed_transcription, language)
-          expect(reply_for_user).to eq("Lo siento! Actualmente estamos teniendo problemas comunicandonos con el sistema de EBT. Favor de enviar su # de EBT por texto en unos minutos.")
+          expect(reply_for_user).to eq("Lo siento! Actualmente estamos teniendo problemas comunicándonos con el sistema de EBT. Favor de enviar su # de EBT por texto en unos minutos.")
         end
       end
     end
