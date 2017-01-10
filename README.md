@@ -1,5 +1,6 @@
 # Balance
 
+![](https://img.shields.io/badge/status-inactive-lightgrey.svg) 
 [![Build Status](https://travis-ci.org/codeforamerica/balance.svg?branch=master)](https://travis-ci.org/codeforamerica/balance)
 
 A text message interface for people to check their EBT card balance for SNAP and other human service benefits
